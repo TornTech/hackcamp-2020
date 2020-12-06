@@ -1,0 +1,45 @@
+/*--------------------------------------------------------------
+# Added for Company Profile Page
+--------------------------------------------------------------*/
+.main-logo {
+  width: 10rem;
+  margin-bottom: 2em;
+}
+
+.news {
+  padding-bottom: 30px;
+}
+
+.news h2 {
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  color: #2f4d5a;
+  z-index: 2;
+}
+
+.news .release {
+  margin-bottom: 2em;
+}
+
+.news h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 122px;
+  height: 66px;
+}
+
+.news p {
+  margin-bottom: 0;
+}
+
+.icon-box {
+  /* height: 350px;
+  width: 300px; */
+  /* display: flex; */
+  /* align-items: flex-end; */ */
+}
