@@ -164,8 +164,12 @@
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 10000,
     dots: true,
-    loop: true,
+    nav: true,
+    navText: ["<div class='nav-btn nav-prev'><i class='fas fa-chevron-left fa-3x'></i></div>",
+      "<div class='nav-btn nav-next'><i class='fas fa-chevron-right fa-3x'></i></div>"],
     responsive: {
       0: {
         items: 1
