@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.w-90 {
+    width: 90% !important;
+}
+
+/*--------------------------------------------------------------
+# Carousel
+--------------------------------------------------------------*/
+.owl-nav {
+    overflow: hidden;
+    height: 0;
+}
+
+.owl-carousel .nav-btn{
+    height: 3rem;
+    position: absolute;
+    width: 2rem;
+    cursor: pointer;
+    top: 40% !important;
+}
+
+.owl-prev.disabled, .owl-next.disabled {
+    pointer-events: none !important;
+    opacity: 0.2;
+}
+
+.nav-prev {
+    left: -2.5rem;
+}
+
+.nav-next {
+    right: -2.5rem;
+}
+
+.news-desc {
+    background: transparent !important;
+    box-shadow: none !important;
+    font-style: normal !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.news-desc::after {
+    
+}
